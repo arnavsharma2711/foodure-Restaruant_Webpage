@@ -149,7 +149,7 @@ p{
     border-color: var(--primary-color);
 }
 
-.wapper{
+.wrapper{
     padding-top: 8.25rem;
     padding-bottom: 8.25rem;
 }
@@ -242,7 +242,6 @@ p{
 */
 
 .about-section{
-    padding-top: 2rem;
     background: var(--white-color);
 }
 .about-section .card,.about-section .card img{
@@ -285,4 +284,33 @@ p{
 }
 .story-section h2{
     color: var(--primary-color);
+}
+
+/*
+====================
+    Explore Design
+====================
+*/
+
+.explore-food .card{
+    border:none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+    padding-bottom: 3rem;
+}
+.explore-food .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display:block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #eee;
+}
+.explore-food .card span del{
+    color: var(--text-gray);
+    margin-left: 0.5rem;
 }
