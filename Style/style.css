@@ -296,7 +296,6 @@ p{
     border:none;
     background-color: transparent;
     border-radius: 0.9375rem;
-    padding-bottom: 3rem;
 }
 .explore-food .card img{
     border-radius: 0.9375rem;
@@ -314,3 +313,46 @@ p{
     color: var(--text-gray);
     margin-left: 0.5rem;
 }
+
+/*
+====================
+    Testimonail Design
+====================
+*/
+.testimonial-section{
+    background-color: var(--primary-color);
+  }
+  .testimonial-section .carousel-item{
+    margin-top:3rem;
+    padding:10rem 3.125rem;
+    background-color:var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+  } 
+  .testimonial-section .carousel-caption img{
+    max-width:5rem;
+    border-radius: 50%;
+    padding:0.3125rem;
+  }
+  
+  .testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding:0 11% 0.625rem;
+  }
+  .testimonial-section .carousel-indicators{
+    bottom:-2.8125rem;
+  }
+  .testimonial-section .carousel-indicators button{
+    width:15px;
+    height:15px;
+    outline:none;
+    border-radius: 50%;
+    border:none;
+    margin-right:1rem;
+    opacity:0.2;
+  }
+  .testimonial-section .carousel-indicators button.active{
+    opacity:1;
+  }
+  

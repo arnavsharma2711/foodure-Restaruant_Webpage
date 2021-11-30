@@ -23,6 +23,10 @@
         padding: 9.375rem 0;
     }
     /*Carousel Design*/
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding:0;
+    }
+
 }
 
 @media (max-width:767px){
@@ -45,11 +49,17 @@
         padding: 3rem 0;
     }
     /*Carousel Design*/
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+
     /*Newsletter*/
     /*Footer Link*/
 }
 
 @media (max-width:330px){
     /*Carousel Design*/
-
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    }
 }
