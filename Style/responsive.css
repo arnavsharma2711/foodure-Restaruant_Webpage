@@ -40,6 +40,10 @@
 
     }
     /*Story Section*/
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
     /*Carousel Design*/
     /*Newsletter*/
     /*Footer Link*/
