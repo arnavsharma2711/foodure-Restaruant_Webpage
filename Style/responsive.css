@@ -1,7 +1,3 @@
-@media (max-width:1024px){
-    /*About Section*/
-}
-
 @media (max-width:991px){
     /*Custom Classes*/
     .text-content{
@@ -54,7 +50,17 @@
     }
 
     /*Newsletter*/
+    .newsletter{
+        width:75%;
+    }
+    .newsletter .main-btn{
+        width:100%;
+        margin-top:1rem;
+    }
     /*Footer Link*/
+    .footer .footer-link,.footer a i{
+        padding:0 0.7rem;
+    }
 }
 
 @media (max-width:330px){
