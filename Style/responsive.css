@@ -22,7 +22,6 @@
     .testimonial-section .carousel-item .carousel-caption p{
         padding:0;
     }
-
 }
 
 @media (max-width:767px){
@@ -50,12 +49,12 @@
     }
 
     /*Newsletter*/
-    .newsletter{
-        width:75%;
-    }
     .newsletter .main-btn{
         width:100%;
         margin-top:1rem;
+    }
+    .newsletterBR{
+        display: block;
     }
     /*Footer Link*/
     .footer .footer-link,.footer a i{
