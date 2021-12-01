@@ -1,4 +1,4 @@
-# foodure-Restaruant_Webpage
+# foodure Restaruant Webpage
 Responsive Landing Webpage for Restaruant designed using HTML, CSS, JavaScrpit, Bootstrap
 
 ## Deployment
