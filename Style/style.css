@@ -315,9 +315,9 @@ p{
 }
 
 /*
-====================
+==========================
     Testimonail Design
-====================
+==========================
 */
 .testimonial-section{
     background-color: var(--primary-color);
@@ -356,3 +356,14 @@ p{
     opacity:1;
   }
   
+/*
+====================
+    FAQs Design
+====================
+*/
+
+.faq h4 span{
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    margin-right: 0.3125rem;
+}
