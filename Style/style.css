@@ -175,7 +175,8 @@ p{
     transition: all 0.3s ease-out;
 }
 #brandImage{
-    transition: all 0.5s;
+    transition: all 0.6s;
+    width: 65%;
     height:auto;
 }
 .navigation-wrap .nav-item{
