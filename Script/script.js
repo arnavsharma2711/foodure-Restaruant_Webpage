@@ -1,11 +1,17 @@
 //Active Navbar
 let nav = document.querySelector(".navigation-wrap");
+let navImage = document.getElementById("brandImage");
 window.onscroll = function () {
     if(document.documentElement.scrollTop > 20)
+    {
         nav.classList.add("scroll-on");
+        navImage.style.width = "50%";
+    }
     else
+    {
         nav.classList.remove("scroll-on");
-
+        navImage.style.width = "65%";
+    }
 }
 
 //Nav Hid
