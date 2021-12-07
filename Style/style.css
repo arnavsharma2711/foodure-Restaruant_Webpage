@@ -179,6 +179,9 @@ p{
     width: 65%;
     height:auto;
 }
+.navbar .container{
+    flex-wrap: nowrap;
+}
 .navigation-wrap .nav-item{
     padding: 0 0.635rem;
     transition: all 200ms linear;
